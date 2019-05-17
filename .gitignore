@@ -67,4 +67,10 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
+# iOS Temp Files
 .DS_Store
+.Trashes
+*.swp
+
+# Cocapods
+Pods/
