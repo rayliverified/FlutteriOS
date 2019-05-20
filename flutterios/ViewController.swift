@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     
     @objc func handleButtonAction() {
         let flutterViewController = FlutterViewController(nibName: nil, bundle: nil);
+        flutterViewController.setInitialRoute("page_main")
         flutterViewController.isViewOpaque = false
         flutterViewController.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
 
