@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		1786AEE6BB479444563020F4 /* Pods-flutterios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterios.debug.xcconfig"; path = "Target Support Files/Pods-flutterios/Pods-flutterios.debug.xcconfig"; sourceTree = "<group>"; };
 		2E85283EC2712B03A07AD138 /* Pods-flutterios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterios.release.xcconfig"; path = "Target Support Files/Pods-flutterios/Pods-flutterios.release.xcconfig"; sourceTree = "<group>"; };
+		532B943106A13DBE1A74C60B /* Pods-flutterios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterios.release.xcconfig"; path = "Pods/Target Support Files/Pods-flutterios/Pods-flutterios.release.xcconfig"; sourceTree = "<group>"; };
 		9D79BCD3228F4FC80087BC4D /* flutterios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutterios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D79BCD6228F4FC80087BC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D79BCD8228F4FC80087BC4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		9D79BCE3228F4FCA0087BC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D79BCE5228F4FCA0087BC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEFB2B320F0249AE8087B1DC /* Pods_flutterios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flutterios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE57F4BBB39990FBF12D195 /* Pods-flutterios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flutterios/Pods-flutterios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,8 @@
 			children = (
 				1786AEE6BB479444563020F4 /* Pods-flutterios.debug.xcconfig */,
 				2E85283EC2712B03A07AD138 /* Pods-flutterios.release.xcconfig */,
+				FBE57F4BBB39990FBF12D195 /* Pods-flutterios.debug.xcconfig */,
+				532B943106A13DBE1A74C60B /* Pods-flutterios.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -208,7 +212,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-flutterios/Pods-flutterios-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-flutterios/Pods-flutterios-frameworks.sh",
 				"${PODS_ROOT}/../my_flutter/.ios/Flutter/engine/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
 			);
@@ -221,7 +225,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flutterios/Pods-flutterios-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-flutterios/Pods-flutterios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
